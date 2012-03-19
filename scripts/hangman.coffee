@@ -113,6 +113,7 @@ generateWord = (msg, callback) ->
       hasDictionaryDef: true
       minDictionaryCount: 3
       minLength: 5
+      minCorpusCount: 5000 # give more simple words
     .headers
       api_key: process.env.WORDNIK_API_KEY
     .get() (err, res, body) ->

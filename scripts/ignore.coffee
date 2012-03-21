@@ -16,7 +16,10 @@ module.exports = (robot) ->
         message.done = done
         normalReceive.call this, message
 
-    robot.respond /ignore @?([\w .-_]+)/i, (msg) ->
+    usersForRegExpName = (robot, regexp) ->
+        # user for robot.brain.data.users
+
+    robot.respond /ignore @?(.+)/i, (msg) ->
         name = msg.match[1]
 
         users = robot.usersForFuzzyName(name)

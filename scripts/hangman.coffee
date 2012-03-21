@@ -58,10 +58,10 @@ class Game
     @message = null
 
   errantWordGuess: (guess) ->
-    @message = "The word #{guess} isn't the correct length so let's pretend that never happened, shall we?"
+    @message = "The word #{guess} isn't the correct length, try again?"
 
   duplicateGuess: (guess) ->
-    @message = "You already tried #{guess} so let's pretend that never happened, shall we?"
+    @message = "You already tried #{guess}, try something else!"
 
   correctGuess: (message) ->
     @message = message
@@ -82,8 +82,8 @@ class Game
       callback("The #{@wordLetters.length} letter word was: #{@word}")
       callback(@definitions)
     else
-      callback("The #{@answerLetters.length} letter word is: #{@answerLetters.join(' ')}")
-      callback("You have #{pluralisedGuess(@remainingGuesses)} remaining")
+      callback("The #{@answerLetters.length} letter word is: #{@answerLetters.join(' ')}. #{pluralisedGuess(@remainingGuesses)} remaining.")
+      # callback("You have #{pluralisedGuess(@remainingGuesses)} remaining")
 
 module.exports = (robot) ->
   gamesByRoom = {}

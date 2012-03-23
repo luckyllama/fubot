@@ -2,4 +2,4 @@
 
 module.exports = (robot) ->
     robot.hear /who('s|\shas)(\sgot)? two thumbs.*/i, (msg) ->    
-        msg.send "#{msg.message.user} does."
+        msg.send "#{msg.message.user.name} does."

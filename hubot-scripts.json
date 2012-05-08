@@ -30,7 +30,6 @@
     "sudo.coffee",
     "tweet-content.coffee",
     "tweet.coffee",
-    //"twitter.coffee",
     "urban.coffee",
     "walmart.coffee",
     "wordnik.coffee",

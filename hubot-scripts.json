@@ -30,12 +30,13 @@
     "sudo.coffee",
     "tweet-content.coffee",
     "tweet.coffee",
-    "twitter.coffee",
+    //"twitter.coffee",
     "urban.coffee",
     "walmart.coffee",
     "wordnik.coffee",
     "wat.coffee",
     "wolfram.coffee",
     "wunderground.coffee",
-    "giftv.coffee"
+    "giftv.coffee",
+    "decide.coffee"
 ]

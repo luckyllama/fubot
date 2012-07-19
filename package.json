@@ -24,6 +24,7 @@
     "optparse": "1.0.3",
     "hubot-irc": ">= 0.0.7",
     "soupselect": ">= 0.2.0",
-    "htmlparser": ">= 1.7.4"
+    "htmlparser": ">= 1.7.4",
+    "querystring": "0.1.0"
   }
 }

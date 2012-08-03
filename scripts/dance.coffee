@@ -54,5 +54,5 @@ dances = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /.*\s(dance|happy)\s.*/i, (msg) ->
+  robot.hear /.*(\s|^)(dance|happy)(\s|$).*/i, (msg) ->
     msg.send msg.random dances

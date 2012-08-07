@@ -22,5 +22,5 @@ culture = [
 ]
 
 module.exports = (robot) ->
-  robot.hear /.*(\s|^)(culture|inspire me)(\s|$).*/i, (msg) ->
+  robot.hear /.*(\s|^)(culture|inspire me)(\s|!|.|$).*/i, (msg) ->
     msg.send msg.random culture

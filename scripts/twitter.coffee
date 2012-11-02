@@ -10,6 +10,9 @@ module.exports = (robot) ->
         if response[0].entities.urls
           for url in response[0].entities.urls
             result = result.substr(0, url.indices[0]) + url.expanded_url + result.substr(url.indices[1])
+        if response[0].entities.media
+          for media in response[0].entities.media
+            result = result.substr(0, media.indices[0]) + media.expanded_url + result.substr(media.indices[1])
         msg.send result
       else
        msg.send "Twitter replied with nothing."

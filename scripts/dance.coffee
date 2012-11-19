@@ -50,7 +50,8 @@ dances = [
   "http://assets0.ordienetworks.com/images/GifGuide/dancing/152765_o.gif",
   "http://assets0.ordienetworks.com/images/GifGuide/dancing/white%20people%20friday.gif",
   "http://assets0.ordienetworks.com/images/GifGuide/dancing/human%20octopus.gif",
-  "http://assets0.ordienetworks.com/images/GifGuide/dancing/bjorkandcatdancingp1.gif"
+  "http://assets0.ordienetworks.com/images/GifGuide/dancing/bjorkandcatdancingp1.gif",
+  "http://i.imgur.com/CCBeA.gif"
 ]
 
 module.exports = (robot) ->

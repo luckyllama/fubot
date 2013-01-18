@@ -52,7 +52,8 @@ dances = [
   "http://assets0.ordienetworks.com/images/GifGuide/dancing/human%20octopus.gif",
   "http://assets0.ordienetworks.com/images/GifGuide/dancing/bjorkandcatdancingp1.gif",
   "http://i.imgur.com/CCBeA.gif",
-  "http://www.gif.tv/gifs/giftv-715-kramerobics.gif"
+  "http://www.gif.tv/gifs/giftv-715-kramerobics.gif",
+  "http://www.gif.tv/gifs/giftv-250-pittdance.gif"
 ]
 
 module.exports = (robot) ->

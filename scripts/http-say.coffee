@@ -29,5 +29,5 @@ module.exports = (robot) ->
     if query.message.length > 0
     	robot.send(user, query.message)
     	res.end "Said #{query.message} to #{query.room} #{query.type}"
-	else 
+    else 
     	res.end "e.g. /say?message=test [&room=%23roomname] or [&room=user]"

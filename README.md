@@ -1,4 +1,4 @@
-Fubot is a personal clone of Github's Hubot.
+Fubot is a personal clone of Github's Hubot. (needs updating)
 
 # Hubot
 

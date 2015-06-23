@@ -1,8 +1,8 @@
 {
-  "name": "hosted-hubot",
-  "version": "0.2.0",
+  "name": "fubot",
+  "version": "0.3.0",
   "author": "GitHub Inc.",
-  "keywords": "github hubot campfire bot",
+  "keywords": "github hubot IRC bot",
   "description": "A simple helpful Robot for your Company",
   "licenses": [
     {
@@ -16,19 +16,19 @@
   },
   "engines": {
     "node": "0.8.x",
-    "npm":  "1.1.x"
+    "npm": "1.1.x"
   },
   "dependencies": {
-    "hubot": "2.7.3",
-    "hubot-scripts": ">= 2.5.13",
-    "optparse": "1.0.4",
-    "hubot-irc": ">= 0.2.2",
-    "soupselect": ">= 0.2.0",
     "htmlparser": ">= 1.7.4",
-    "querystring": "0.1.0",
-    "wolfram": "0.2.2",
+    "hubot": ">= 2.7.3",
+    "hubot-ambush": "0.0.3",
+    "hubot-irc": ">= 0.2.2",
+    "hubot-scripts": ">= 2.5.13",
     "ntwitter": "0.2.10",
+    "optparse": "1.0.4",
+    "querystring": "0.1.0",
+    "soupselect": ">= 0.2.0",
     "twit": "1.1.6",
-  	"underscore": "1.5.1"
+    "underscore": "1.5.1"
   }
 }

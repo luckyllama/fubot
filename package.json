@@ -20,15 +20,15 @@
   },
   "dependencies": {
     "htmlparser": ">= 1.7.4",
-    "hubot": ">= 2.7.3",
+    "hubot": "^2.16.0",
     "hubot-ambush": "0.0.3",
     "hubot-irc": ">= 0.2.2",
     "hubot-scripts": ">= 2.5.13",
-    "ntwitter": "0.2.10",
-    "optparse": "1.0.4",
-    "querystring": "0.1.0",
+    "ntwitter": "^0.5.0",
+    "optparse": "^1.0.5",
+    "querystring": "^0.2.0",
     "soupselect": ">= 0.2.0",
-    "twit": "1.1.6",
-    "underscore": "1.5.1"
+    "twit": "^2.1.0",
+    "underscore": "^1.8.3"
   }
 }

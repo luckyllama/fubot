@@ -21,7 +21,7 @@
     "htmlparser": ">= 1.7.4",
     "hubot": "^2.16.0",
     "hubot-ambush": "0.0.3",
-    "hubot-irc": ">= 0.2.2",
+    "hubot-irc": "^0.2.8",
     "hubot-scripts": ">= 2.5.13",
     "ntwitter": "^0.5.0",
     "optparse": "^1.0.5",

@@ -30,7 +30,6 @@
     "ping.coffee",
     "reddit-jokes.coffee",
     "redis-brain.coffee",
-    "remind.coffee",
     "script.coffee",
     "sensitive.coffee",
     "shipit.coffee",
